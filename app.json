@@ -1,28 +1,4 @@
 {
-  "expo": {
-    "name": "Dismissal App",
-    "slug": "dismissal-expo",
-    "version": "0.2.0",
-    "orientation": "portrait",
-    "icon": "./assets/school.png",
-    "scheme": "dismissal",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/school.png",
-      "backgroundColor": "#e6f0ff",
-      "resizeMode": "contain"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/school.png",
-        "backgroundColor": "#e6f0ff"
-      }
-    },
-    "web": {
-      "bundler": "metro"
-    }
-  }
+  "name": "DismissalApp",
+  "displayName": "Dismissal App"
 }

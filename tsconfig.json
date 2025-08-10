@@ -1,18 +1,7 @@
 {
+  "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": [
-      "ES2017"
-    ],
-    "jsx": "react-jsx",
-    "moduleResolution": "node",
-    "strict": true,
-    "noEmit": true,
-    "types": [
-      "react",
-      "react-native",
-      "expo-router"
-    ]
+    "strict": true
   },
-  "extends": "expo/tsconfig.base"
+  "include": ["src"]
 }
